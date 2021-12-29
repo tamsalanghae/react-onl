@@ -44,7 +44,7 @@ body {
   color: white;
   overflow: hidden;
   transition: 0.3s;
-  margin: auto 20px;
+  margin: 20px 20px;
 }
 .card__img {
   width: 120px;
@@ -106,24 +106,21 @@ body {
 }
 /* Tablet and mobile: width < 1240px */
 @media only screen and (max-width: 1240px) {
-  
-  
-  .card {
-    margin: 20px 20px;
-  }
 }
 /* Mobile: width < 740px */
 @media only screen and (max-width: 740px) {
   
   .header {
     text-align: start;
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-top: 1100px;
   }
   .main {
-    width: 375px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
   
 }
@@ -132,7 +129,8 @@ body {
 @media only screen and (min-width: 766px) and (max-width: 1025px) {
   .header {
     text-align: start;
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-top: 150px;
   }
   
   .main{
