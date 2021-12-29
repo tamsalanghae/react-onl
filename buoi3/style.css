@@ -112,8 +112,8 @@ body {
     margin: 20px 20px;
   }
 }
-/* Mobile: width < 768px */
-@media only screen and (max-width: 768px) {
+/* Mobile: width < 740px */
+@media only screen and (max-width: 740px) {
   
   .header {
     text-align: start;
@@ -129,7 +129,7 @@ body {
 }
 
 /* Tablet: width >= 768px and width < 1240px */
-@media only screen and (min-width: 768px) and (max-width: 1024) {
+@media only screen and (min-width: 766px) and (max-width: 1025px) {
   .header {
     text-align: start;
     margin-left: 20px;
@@ -138,9 +138,11 @@ body {
   .main{
     width: 100vw;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
-
+  .card{
+    width: 320px;
+  }
 }
