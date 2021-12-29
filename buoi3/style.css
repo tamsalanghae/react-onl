@@ -106,40 +106,41 @@ body {
 }
 /* Tablet and mobile: width < 1240px */
 @media only screen and (max-width: 1240px) {
-  body {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-  .main {
-    width: 740px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
+  
+  
   .card {
     margin: 20px 20px;
   }
 }
-/* Mobile: width < 740px */
-@media only screen and (max-width: 740px) {
+/* Mobile: width < 768px */
+@media only screen and (max-width: 768px) {
   
   .header {
     text-align: start;
     margin-left: 20px;
-    
   }
-  
+  .main {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
 }
 
-/* Tablet: width >= 740px and width < 1240px */
-@media only screen and (min-width: 740px) and (max-width: 1024) {
-  .card__img {
-    width: 120px;
-    height: 120px;
+/* Tablet: width >= 768px and width < 1240px */
+@media only screen and (min-width: 768px) and (max-width: 1024) {
+  .header {
+    text-align: start;
+    margin-left: 20px;
   }
+  
+  .main{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
